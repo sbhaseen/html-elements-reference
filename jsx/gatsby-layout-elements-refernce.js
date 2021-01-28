@@ -6,11 +6,10 @@ export default function ElementsReference() {
   return (
     <Layout>
       <SEO title="Element Reference" />
-
-      <div>
+      <>
         <section>
           <header className="align-center">
-            <h1>Elements Reference</h1>
+            <h1>Elements Reference (JSX Gatsby Layout)</h1>
           </header>
 
           <h2>Text</h2>
@@ -463,7 +462,7 @@ export default function ElementsReference() {
             </code>
           </pre>
         </section>
-      </div>
+      </>
     </Layout>
   );
 }

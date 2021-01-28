@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ElementsReference() {
   return (
-    <div>
+    <>
       <section>
         <header className="align-center">
           <h1>Elements Reference (JSX)</h1>
@@ -451,6 +451,6 @@ export default function ElementsReference() {
           </code>
         </pre>
       </section>
-    </div>
+    </>
   );
 }
