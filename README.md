@@ -1,4 +1,4 @@
-# HTML Elements Refernce
+# HTML Elements Reference
 
 A collection of HTML element references for design and development.
 
