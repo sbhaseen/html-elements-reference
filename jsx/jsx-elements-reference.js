@@ -20,7 +20,7 @@ export default function ElementsReference() {
           text.
         </p>
         <p>
-          This is <u>underlined</u> and this is code:
+          This is <u>underlined</u> and this is in-line code:
           <code>for (foo in bar) {"{...}"}</code>.
         </p>
         <p>
@@ -262,70 +262,27 @@ export default function ElementsReference() {
         <h2>Buttons</h2>
         <ul>
           <li>
-            <button className="button primary">Primary</button>{" "}
+            <button className="button">Default</button>
           </li>
           <li>
-            <button className="button">Default</button>{" "}
+            <button className="button primary">Primary</button>
           </li>
-        </ul>
-        <ul>
           <li>
             <button className="button primary large">Large</button>
           </li>
           <li>
-            <button className="button">Default</button>
-          </li>
-          <li>
             <button className="button small">Small</button>
           </li>
-        </ul>
-        <ul>
           <li>
-            <button className="button primary fit">Fit</button>
+            <button className="button fit">Fit Text</button>
           </li>
           <li>
-            <button className="button fit">Fit</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button className="button primary fit small">Fit + Small</button>
+            <button className="button disabled">Disabled Class</button>
           </li>
           <li>
-            <button className="button fit small">Fit + Small</button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button className="button primary">
-              <span className="icon fas fa-search"></span>Icon
+            <button className="button" disabled>
+              Disabled Attribute
             </button>
-          </li>
-          <li>
-            <button className="button">
-              <span className="icon fas fa-download"></span>Icon
-            </button>
-          </li>
-          <li>
-            <button className="button small">
-              <span className="icon fas fa-download"></span>Icon Small
-            </button>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <span className="button primary disabled">Primary</span>
-          </li>
-          <li>
-            <span className="button disabled">Default</span>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <button className="button primary disabled">Primary</button>
-          </li>
-          <li>
-            <button className="button disabled">Default</button>
           </li>
         </ul>
 
@@ -394,11 +351,6 @@ export default function ElementsReference() {
               />
               <label htmlFor="demo-priority-high">High</label>
             </div>
-
-            <div>
-              <input type="checkbox" id="demo-copy" name="demo-copy" />
-              <label htmlFor="demo-copy">Email me a copy</label>
-            </div>
             <div>
               <input
                 type="checkbox"
@@ -406,7 +358,7 @@ export default function ElementsReference() {
                 name="demo-human"
                 checked
               />
-              <label htmlFor="demo-human">I am a human</label>
+              <label htmlFor="demo-human">I am not a robot.</label>
             </div>
 
             <div>

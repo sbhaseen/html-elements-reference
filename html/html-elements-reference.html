@@ -19,7 +19,7 @@
         "} text.
       </p>
       <p>
-        This is <u>underlined</u> and this is code:
+        This is <u>underlined</u> and this is in-line code:
         <code>for (foo in bar) {"{...}"}</code>.
       </p>
       <p>This is a <a href="/">link</a>.</p>
@@ -258,67 +258,24 @@
 
       <h2>Buttons</h2>
       <ul>
-        <li><button class="button primary">Primary</button>{" "}</li>
-        <li><button class="button">Default</button>{" "}</li>
-      </ul>
-      <ul>
+        <li>
+          <button class="button">Default</button>
+        </li>
+        <li><button class="button primary">Primary</button></li>
         <li>
           <button class="button primary large">Large</button>
         </li>
         <li>
-          <button class="button">Default</button>
-        </li>
-        <li>
           <button class="button small">Small</button>
         </li>
-      </ul>
-      <ul>
         <li>
-          <button class="button primary fit">Fit</button>
+          <button class="button fit">Fit Text</button>
         </li>
         <li>
-          <button class="button fit">Fit</button>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button class="button primary fit small">Fit + Small</button>
+          <button class="button disabled">Disabled Class</button>
         </li>
         <li>
-          <button class="button fit small">Fit + Small</button>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button class="button primary">
-            <span class="icon fas fa-search"></span>Icon
-          </button>
-        </li>
-        <li>
-          <button class="button">
-            <span class="icon fas fa-download"></span>Icon
-          </button>
-        </li>
-        <li>
-          <button class="button small">
-            <span class="icon fas fa-download"></span>Icon Small
-          </button>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <span class="button primary disabled">Primary</span>
-        </li>
-        <li>
-          <span class="button disabled">Default</span>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <button class="button primary disabled">Primary</button>
-        </li>
-        <li>
-          <button class="button disabled">Default</button>
+          <button class="button" disabled>Disabled Attribute</button>
         </li>
       </ul>
 
@@ -381,14 +338,9 @@
             <input type="radio" id="demo-priority-high" name="demo-priority" />
             <label for="demo-priority-high">High</label>
           </div>
-
-          <div>
-            <input type="checkbox" id="demo-copy" name="demo-copy" />
-            <label for="demo-copy">Email me a copy</label>
-          </div>
           <div>
             <input type="checkbox" id="demo-human" name="demo-human" checked />
-            <label for="demo-human">I am a human</label>
+            <label for="demo-human">I am not a robot.</label>
           </div>
 
           <div>
